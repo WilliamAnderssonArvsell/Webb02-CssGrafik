@@ -1,0 +1,55 @@
+body {
+  background: #5E5B52; }
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 10%;
+  width: 600px;
+  height: 400px;
+  background: none; }
+
+.kamera {
+  position: absolute;
+  background: #E6E8E5;
+  height: 100%;
+  width: 100%;
+  border-radius: 5%;
+  box-shadow: 0 0 2rem #32312F; }
+  .kamera::before {
+    content: "";
+    position: absolute;
+    top: 30%;
+    background: #BB3430;
+    height: 40%;
+    width: 100%;
+    margin: 0 auto; }
+
+.lens-vit {
+  position: absolute;
+  left: 32.5%;
+  top: 22.5%;
+  height: 55%;
+  width: 35%;
+  border-radius: 50%;
+  background-image: radial-gradient(#353535, #353535 20%, #4D4D4D 20%, #4D4D4D 40%, #555555 40%, #555555 50%, #393939 50%, #393939 60%, #E6E8E5 60%, #E6E8E5); }
+
+.lens-liten {
+  position: absolute;
+  height: 10%;
+  width: 7%;
+  background: #B0DFE5;
+  border-radius: 50%;
+  top: 10%;
+  right: 10%;
+  border: solid 3px  #999DA0; }
+
+.knapp {
+  position: absolute;
+  height: 5%;
+  width: 10%;
+  border-radius: 10px 10px 0px 0px;
+  top: -5%;
+  left: 10%;
+  background: #48111C; }

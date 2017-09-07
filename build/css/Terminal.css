@@ -1,0 +1,65 @@
+body {
+  background: linear-gradient(to left, #FF5F6D, #FFC371);
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+.box {
+  position: relative;
+  background: #C9D2CD;
+  height: 560px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 3%;
+  overflow: hidden;
+  border-radius: 2rem; }
+  .box::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #1F1722;
+    top: 10%; }
+
+.cirkel-red {
+  position: absolute;
+  height: 6%;
+  width: 3.5%;
+  border-radius: 50%;
+  background: #F6645C;
+  left: 3%;
+  top: 2%; }
+
+.cirkel-yellow {
+  position: absolute;
+  height: 6%;
+  width: 3.5%;
+  border-radius: 50%;
+  background: #F8B53D;
+  left: 8%;
+  top: 2%; }
+
+.cirkel-green {
+  position: absolute;
+  height: 6%;
+  width: 3.5%;
+  border-radius: 50%;
+  background: #2BAB38;
+  left: 13%;
+  top: 2%; }
+
+.pil {
+  position: absolute;
+  top: 27.5%;
+  height: 55%;
+  width: 30%;
+  background: #EBEBEB;
+  transform: rotate(-45deg); }
+  .pil::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #1F1722;
+    left: -20%;
+    top: -20%; }

@@ -1,0 +1,82 @@
+body {
+  background: #210E3D; }
+
+.box {
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 8%;
+  height: 400px;
+  width: 600px;
+  border: solid 3px white; }
+
+.large-bottom-triangle {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  bottom: 5%;
+  height: 55%;
+  background: #EA6C00;
+  -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
+  clip-path: polygon(100% 0, 0 0, 50% 100%); }
+
+.medium-bottom-triangle {
+  position: absolute;
+  height: 100%;
+  width: 60%;
+  left: 20%;
+  background: #FDAD00;
+  -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
+  clip-path: polygon(100% 0, 0 0, 50% 100%); }
+
+.large-top-triangle {
+  position: absolute;
+  height: 30%;
+  width: 30%;
+  left: 35%;
+  top: 10.1%;
+  background: #FEEEB7;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%); }
+
+.right-top-triangle-left {
+  position: absolute;
+  height: 30%;
+  width: 10.1%;
+  left: 25%;
+  height: 30%;
+  top: 10.1%;
+  background: #FDAD00;
+  -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%); }
+
+.right-top-triangle-right {
+  position: absolute;
+  height: 30%;
+  width: 10.1%;
+  right: 25%;
+  height: 30%;
+  top: 10.1%;
+  background: #FDAD00;
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  clip-path: polygon(0 0, 0% 100%, 100% 100%); }
+
+.medium-top-triangle-left {
+  position: absolute;
+  height: 30%;
+  width: 15.1%;
+  left: 35%;
+  top: 10.1%;
+  background: #FDD231;
+  -webkit-clip-path: polygon(100% 0, 0 0, 0 100%);
+  clip-path: polygon(100% 0, 0 0, 0 100%); }
+
+.medium-top-triangle-right {
+  position: absolute;
+  height: 30%;
+  width: 15.1%;
+  right: 35%;
+  top: 10.1%;
+  background: #FDD231;
+  -webkit-clip-path: polygon(100% 100%, 100% 0, 0 0);
+  clip-path: polygon(100% 100%, 100% 0, 0 0); }

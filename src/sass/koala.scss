@@ -1,5 +1,11 @@
+//Colors
+$blue: #25A9FC;
+
+//Shapes
+$circle: 50%;
+
 body{
-    background-color:#25A9FC;
+    background-color:$blue;
 }
 .box{
     position: relative;
@@ -18,14 +24,14 @@ body{
     width: 50%;
     height: 67%;
     background: #A68ECF;
-    border-radius: 50%;
+    border-radius: $circle;
 }
 .head-copy{
     width: 100%;
     height: 100%;
     position: absolute;
     background: #7E768B;
-    border-radius: 50%;
+    border-radius: $circle;
     z-index: 2;
 }
 .ear-left{
@@ -35,7 +41,7 @@ body{
     left: -20%;
     top: 5%;
     background: #7E768B;
-    border-radius: 50%;
+    border-radius: $circle;
     z-index: 1;
 }
 .ear-right{
@@ -45,7 +51,7 @@ body{
     right: -20%;
     top: 5%;
     background: #7E768B;
-    border-radius: 50%;
+    border-radius: $circle;
     z-index: 1;
 }
 .inner-ear{
@@ -64,7 +70,7 @@ body{
     height: 33%;
     top: 25%;
     right: 21%;
-    border-radius: 50%;
+    border-radius: $circle;
     z-index: 3;
 }
 .eye-right{
@@ -74,7 +80,7 @@ body{
     height: 33%;
     top: 25%;
     left: 21%;
-    border-radius: 50%;
+    border-radius: $circle;
     z-index: 3;
 }
 .pupil{
@@ -83,7 +89,7 @@ body{
     height: 30%;
     top: 35%;
     left: 36%;
-    border-radius: 50%;
+    border-radius: $circle;
     background: #27354A;
 }
 .nose{
@@ -93,7 +99,7 @@ body{
     height: 42.5%;
     left: 37%;
     top: 45%;
-    border-radius: 50px;
+    border-radius: $circle;
     z-index: 4;
 }
 .hair-left{
