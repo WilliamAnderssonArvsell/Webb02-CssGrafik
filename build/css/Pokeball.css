@@ -1,0 +1,11 @@
+body {
+  background: #F5D662; }
+
+.ball {
+  position: relative;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 2%;
+  background-image: linear-gradient(#EE5365, #EE5365 45%, #40484B 45%, #40484B 55%, #FAFAFA 55%, #FAFAFA); }

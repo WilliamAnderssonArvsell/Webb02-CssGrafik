@@ -1,0 +1,77 @@
+
+
+body{
+    background: #DDC6E0;
+    height: 100%;
+}
+.box{
+    position: relative;
+    width: 600px;
+    height: 575px;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.hel-glass1{
+    position: relative;
+    top: 5%;
+    left: 13%;
+    height: 70%;
+    width: 27.5%;
+
+    .glass1{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: #B6F453;
+        opacity: 0.8;
+        border-radius: 4.5rem 4.5rem 2rem 2rem / 8rem 8rem 2rem 2rem;
+        transform: rotate(-15deg);
+        z-index: 2;
+    }
+    .pinne1{
+        position: absolute;
+        height: 80%;
+        width: 30%;
+        background: #CCAA54;
+        border-radius: 2rem;
+        left: 60%;
+        top: 50%;
+        transform: rotate(-15deg);
+    }
+}
+.hel-glass2{
+    position: relative;
+    top: -65%;
+    left: 60%;
+    height: 70%;
+    width: 27.5%;
+    
+    .glass2{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: #B6F453;
+        opacity: 0.8;
+        border-radius: 4.5rem 4.5rem 2rem 2rem / 8rem 8rem 2rem 2rem;
+        transform: rotate(8deg);
+        z-index: 2;
+        background-image: linear-gradient(
+            #F6E12C,
+            #F6E12C 33.33%,
+            #D76E73 33.33%,
+            #D76E73 66.66%,
+            #2B8BF9 66.66%,
+            #2B8BF9
+        )
+    }
+    .pinne2{
+        position: absolute;
+        height: 80%;
+        width: 30%;
+        background: #CCAA54;
+        border-radius: 2rem;
+        right: 50%;
+        top: 50%;
+        transform: rotate(8deg);
+    }
+}
