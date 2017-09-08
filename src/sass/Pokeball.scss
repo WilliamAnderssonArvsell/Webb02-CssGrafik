@@ -17,5 +17,10 @@ body{
         #40484B 55%,
         #FAFAFA 55%,
         #FAFAFA
-    )
+    );
+
+    &::before{
+        content: '';
+        
+    }
 }

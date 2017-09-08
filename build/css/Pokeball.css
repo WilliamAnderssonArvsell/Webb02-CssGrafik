@@ -9,3 +9,5 @@ body {
   margin: 0 auto;
   margin-top: 2%;
   background-image: linear-gradient(#EE5365, #EE5365 45%, #40484B 45%, #40484B 55%, #FAFAFA 55%, #FAFAFA); }
+  .ball::before {
+    content: ''; }
