@@ -1,0 +1,38 @@
+body {
+  background: #CCCCCC; }
+
+.box {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  margin: 5% auto; }
+
+.oga {
+  position: absolute;
+  background: white;
+  height: 80%;
+  width: 80%;
+  left: 10%;
+  top: 10%;
+  transform: rotate(-45deg);
+  border-top-right-radius: 90%;
+  border-bottom-left-radius: 90%; }
+  .oga::before {
+    content: '';
+    position: absolute;
+    background: #187FFF;
+    height: 55%;
+    width: 55%;
+    border-radius: 50%;
+    left: 22.5%;
+    top: 22.5%; }
+  .oga::after {
+    content: '';
+    position: absolute;
+    background: #000000;
+    height: 30%;
+    width: 30%;
+    left: 35%;
+    top: 35%;
+    transform: rotate(45deg);
+    border-radius: 50%; }
