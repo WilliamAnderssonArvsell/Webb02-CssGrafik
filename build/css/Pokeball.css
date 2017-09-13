@@ -10,4 +10,11 @@ body {
   margin-top: 2%;
   background-image: linear-gradient(#EE5365, #EE5365 45%, #40484B 45%, #40484B 55%, #FAFAFA 55%, #FAFAFA); }
   .ball::before {
-    content: ''; }
+    content: '';
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    height: 35%;
+    width: 35%;
+    background-image: radial-gradient(#FAFAFA, #FAFAFA 40%, #40484B 40%, #40484B);
+    border-radius: 50%; }

@@ -1,0 +1,58 @@
+
+
+body{
+    background: #BAF7FA;
+}
+.ikon{
+    position: relative;
+    height: 400px;
+    width: 280px;
+    background: #0092FF;
+    margin: 9% auto;
+}
+.triangle{
+    position: absolute;
+    left: 57.5%;
+    height: 33%;
+    width: 42.5%;
+    background: #BAF7FA;
+    border-bottom-left-radius: 10%;
+
+    &::before{
+        content: '';
+        position: absolute;
+        -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+        clip-path: polygon(0 0, 0% 100%, 100% 100%);
+        background: #0092FF;
+        right: 0%;
+        width: 85%;
+        height: 85%;
+    }
+}
+.doc{
+    position: absolute;
+    height: 35%;
+    width: 60%;
+    background: #BAF7FA;
+    border-radius: 10%;
+    left: -30%;
+    top: 25%;
+
+    &::before{
+        content: '';
+        position: absolute;
+        background: #0092FF;
+        height: 70%;
+        width: 90%;
+        top: 15%;
+    }
+}
+span{
+    position: absolute;
+    font-family: sans-serif;
+    top: 25%;
+    left: 2.5%;
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+}

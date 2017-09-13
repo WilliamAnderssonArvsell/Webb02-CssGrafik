@@ -19,8 +19,20 @@ body{
         #FAFAFA
     );
 
-    &::before{
+  &::before{
         content: '';
-        
+        position: absolute;
+        left: 35%;
+        top: 35%;
+        height: 35%;
+        width: 35%;
+        background-image: radial-gradient(
+            #FAFAFA,
+            #FAFAFA 40%,
+            #40484B 40%,
+            #40484B
+        );
+        border-radius: 50%;
+
     }
 }
