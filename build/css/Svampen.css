@@ -1,0 +1,105 @@
+body {
+  background: #31B4F8; }
+
+.box {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 5% auto; }
+
+.text {
+  position: absolute;
+  color: white;
+  font-size: 9rem;
+  font-family: 'Rubik Mono One', sans-serif;
+  width: 75%;
+  height: 30%;
+  left: 12.5%;
+  bottom: 10%; }
+
+.svamp {
+  position: absolute;
+  height: 40%;
+  width: 45%;
+  left: 27.5%;
+  top: 10%;
+  background: #01C03C;
+  border-radius: 190px 190px 100px 100px / 185px 185px 150px 150px;
+  overflow: hidden;
+  border: 1.5px solid black; }
+
+.circle {
+  position: absolute;
+  height: 50%;
+  width: 45%;
+  top: 10%;
+  left: 27.5%;
+  background: white;
+  border-radius: 50%;
+  border: 1.5px solid black; }
+  .circle::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+    border-radius: 50%;
+    left: -120%;
+    top: 55%;
+    border: 1.5px solid black; }
+  .circle::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+    border-radius: 50%;
+    left: 120%;
+    top: 55%;
+    border: 1.5px solid black; }
+
+.huvud {
+  position: absolute;
+  height: 12.5%;
+  width: 30%;
+  background: #F9D682;
+  border-radius: 260px 260px 150px 150px / 80px 80px 150px 150px;
+  left: 35.5%;
+  top: 42.5%;
+  border: 1.5px solid black; }
+
+.eye-one {
+  position: absolute;
+  height: 55%;
+  width: 10%;
+  background: black;
+  top: 10%;
+  left: 25%;
+  border-radius: 50%; }
+  .eye-one::before {
+    content: '';
+    position: absolute;
+    height: 40%;
+    width: 50%;
+    left: 27.5%;
+    top: 10%;
+    border-radius: 50%;
+    background: white; }
+
+.eye-two {
+  position: absolute;
+  height: 55%;
+  width: 10%;
+  background: black;
+  top: 10%;
+  right: 25%;
+  border-radius: 50%; }
+  .eye-two::before {
+    content: '';
+    position: absolute;
+    height: 40%;
+    width: 50%;
+    right: 22.5%;
+    top: 10%;
+    border-radius: 50%;
+    background: white; }
