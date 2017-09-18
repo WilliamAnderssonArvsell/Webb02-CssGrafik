@@ -1,0 +1,23 @@
+@mixin swordpixelcolors ($swordmap) {
+    $sword-colors: (
+        t: transparent,
+        g: #ACFE2F,
+        b: #BF7001
+    );
+
+    .px{
+        height: (100%/15);
+        width: (100%/7);
+        float: left;
+    }
+    
+    $num: 1; // Vilken pixel vi ska färglägga :)
+
+    @each $value in $swordmap {
+        .px:nth-child(#{$num}) {
+            background-color: map-get($sword-colors, $value);
+        }
+
+        $num: $num + 1;
+    }
+}
